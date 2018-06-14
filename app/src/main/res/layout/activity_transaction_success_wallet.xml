@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suvlas.TransactionSuccessWalletActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/relative_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/txt_goldstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/transaction"
+            android:textColor="@color/loginbg"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/img_back"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/toolbar_view" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_sub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_top"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <RelativeLayout
+            android:id="@+id/lin_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lin_second">
+
+            <ImageView
+                android:id="@+id/img_graytag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:src="@drawable/logo_circle" />
+
+            <TextView
+                android:id="@+id/txt_offer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/img_graytag"
+                android:paddingTop="15dp"
+                android:text="@string/loyaltyapp"
+                android:textColor="@color/loginbtn"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_offer1"
+                android:layout_toRightOf="@+id/img_graytag"
+                android:text="@string/username"
+                android:textColor="@color/loginbtn"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt_cardnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_username"
+                android:layout_toRightOf="@+id/img_graytag"
+                android:text="@string/cardnumber"
+                android:textColor="@color/loginbg"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt_cdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_graytag"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/octdate"
+                android:textColor="@color/loginbg"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txt_cdate"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/txt_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_line"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:text="@string/item"
+                android:textColor="@color/loginbg"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view_line"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:text="@string/amount"
+                android:textColor="@color/loginbg"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view_line2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txt_amount"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/txt_reload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_line2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/reload"
+                android:textColor="@color/loginbg"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/txt_nonreload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_reload"
+                android:layout_marginLeft="20dp"
+                android:text="@string/nonautoreload"
+                android:textColor="@color/loginbtn"
+                android:textSize="15dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/txt_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txt_reload"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/loginbtn"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/img_creditcatrd_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_nonreload"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_card2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_nonreload"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/img_creditcatrd_type"
+                android:textColor="@color/loginbg"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt_aprove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txt_nonreload"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/approved"
+                android:textColor="@color/loginbtn"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/view_line3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txt_aprove"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/txt_itbms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_line3"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toLeftOf="@+id/txt_tax"
+                android:textColor="@color/loginbtn"
+                android:textSize="15dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txt_tax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view_line3"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/payamount2"
+                android:textColor="@color/loginbtn"
+                android:textSize="17dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txt_totalorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_tax"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@+id/txt_total_price_with_tax"
+                android:text="Total Amount"
+                android:textColor="@color/loginbtn"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_total_price_with_tax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txt_tax"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/loginbtn"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/txt_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/loginbtn"
+                android:gravity="center"
+                android:text="Finalizar Compra"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:layout_below="@+id/txt_totalorder" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "634727873667",
+    "firebase_url": "https://suvlas-1489037066407.firebaseio.com",
+    "project_id": "suvlas-1489037066407",
+    "storage_bucket": "suvlas-1489037066407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634727873667:android:76230a873294e001",
+        "android_client_info": {
+          "package_name": "com.suvlas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634727873667-cpnj47rg93f9rshah1qba4j2eafjdm4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suvlas",
+            "certificate_hash": "0cafea8b9c26fb68e4df17eaab935d9dac862757"
+          }
+        },
+        {
+          "client_id": "634727873667-fhde6j3kst4am88k4v68uq7g0fs8i5ot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6JjeDjku_HSSJoJimqWzSZkrmZkf2VII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634727873667-fhde6j3kst4am88k4v68uq7g0fs8i5ot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

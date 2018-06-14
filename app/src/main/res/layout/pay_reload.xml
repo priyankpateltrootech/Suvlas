@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/payreload_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loginbtn">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lin_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/loginbtn"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relative_top1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="15dp"
+                    android:src="@drawable/back" />
+
+                <TextView
+                    android:id="@+id/txt_goldstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="RECARGAR"
+                    android:textColor="@color/loginbg"
+                    android:textSize="16dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/img_back"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/toolbar_view" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_scnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="20dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
+
+                    <TextView
+                        android:id="@+id/txt_balance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/loginbg"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_as"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_balance"
+                        android:textColor="@color/loginbg"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_card_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/loginbg"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/loginbg"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relative_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/loginbg"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pay1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/selectwalletamt"
+                        android:textColor="@color/loginbtn"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rel_wallet_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="8"
+                        android:orientation="horizontal" />
+
+                    <Button
+                        android:id="@+id/txt_add_wallet_amnt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="2"
+                        android:background="@color/white"
+                        android:text=""
+                        android:textAllCaps="false"
+                        android:textColor="@color/loginbg"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_scnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/loginbtn">
+
+                <TextView
+                    android:id="@+id/txt_creditcard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/ceditard"
+                    android:textColor="@color/loginbg" />
+
+                <EditText
+                    android:id="@+id/edt_cardname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_creditcard"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edit_whitebg"
+                    android:hint="@string/cardholdername"
+                    android:maxLines="1"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textCursorDrawable="@null"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:id="@+id/relative_scnd2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_cardname"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <EditText
+                        android:id="@+id/cardnumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/edit_whitebg"
+                        android:digits=" 1234567890"
+                        android:hint="@string/edt_cardnumber"
+                        android:inputType="number"
+                        android:maxLength="19"
+                        android:paddingBottom="12dp"
+                        android:paddingTop="12dp"
+                        android:textSize="14dp" />
+
+                    <EditText
+                        android:id="@+id/securitycode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_whitebg"
+                        android:hint="@string/securitycode"
+                        android:inputType="numberPassword"
+                        android:maxLines="1"
+                        android:maxLength="3"
+                        android:paddingBottom="12dp"
+                        android:paddingTop="12dp"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_third"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relative_scnd2"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <EditText
+                        android:id="@+id/expirationdate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:inputType="date"
+                        android:background="@drawable/edit_whitebg"
+                        android:hint="@string/exp_date"
+                        android:paddingBottom="12dp"
+                        android:paddingTop="12dp"
+                        android:textSize="14dp"
+                        android:focusable="false"/>
+
+                    <EditText
+                        android:id="@+id/year"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_whitebg"
+                        android:hint="@string/year"
+                        android:maxLines="1"
+                        android:paddingBottom="12dp"
+                        android:paddingTop="12dp"
+                        android:textSize="14dp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_procced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@color/white"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/txt_procced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/procced"
+                    android:textColor="@color/loginbtn" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

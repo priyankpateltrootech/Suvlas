@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Suvlas</string>
+
+    <string name="facebook_app_id">258071991330000</string>
+    <string name="google_api_key">AIzaSyCgAIoz3GWWlN8b78elDg0FuF9G2iDf4ZI</string>
+
+    <!--Login page and Registration -->
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="confirmpass">Confirmar contraseña</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="datebirth">Fecha de nacimiento</string>
+    <string name="gender">Género</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="or">O</string>
+    <string name="signwith_fb">REGISTRARSE </string>
+    <string name="with_fb">CON FACEBOOK</string>
+    <string name="with_instagram">CON INSTAGRAM</string>
+    <string name="signup">Regístrate</string>
+    <string name="next">Siguient</string>
+    <string name="submit">Enviar</string>
+    <string name="backtosign">VOLVER A REGISTRARSE</string>
+    <string name="forgate_pass"><u>¿Se te olvidó tu contraseña? Haz click aquí</u></string>
+    <string name="dont_internet">Usted no tiene conexión a internet.</string>
+    <string name="enter_name">Nombre de usuario Obligatorio</string>
+    <string name="enter_pass">Se requiere contraseña</string>
+    <string name="enter_confirm_pass">Confirmar contraseña no coincide</string>
+    <string name="match_confirm_pass">Confirmar contraseña no coincide</string>
+    <string name="enter_date">Fecha de nacimiento requerida</string>
+    <string name="enter_gender">Se requiere género</string>
+
+    <!--Reward page-->
+    <string name="reward">RECOMPENSA</string>
+    <string name="enfpoints">ESCANEAR CÓDIGO</string>
+    <string name="offertext1">Tienes $ 3 de descuento en  Yeeros después de las 3PM</string>
+    <string name="expiredate1">Expira 25/10/2016 | Código 2506</string>
+    <string name="offertext2">Recompensa de cumpleaños disponible</string>
+    <string name="expiredate2">Expire 02/12/2016</string>
+    <string name="scan_code">ESCANEAR CÓDIGO</string>
+
+    <!--Gold status-->
+    <string name="goldstatus">NIVEL DORADO</string>
+    <string name="silver_status">NIVEL PLATA</string>
+    <string name="bronze_status">NIVEL BRONCE</string>
+    <string name="since">DESDE 03 15 2016</string>
+    <string name="pointreward">125 puntos hasta su próxima recompensa especial</string>
+    <string name="pointhour">Los Puntos Pueden Tardar Hasta 24 Horas En Actualizarce</string>
+
+    <!--Mycard-->
+    <string name="mycard">MIS TARJETAS</string>
+    <string name="last_purchase">ÚLTIMA COMPRA 26 AGO 2016</string>
+    <string name="expire_ago">EXPIRA  26 AGO 2016</string>
+    <string name="Manage">Gestionar</string>
+    <string name="Pay">RECARGAR CREDITOS</string>
+    <string name="usecode">Utilice este código si el escáner no funciona correctamente</string>
+    <string name="points_may">Los 5 puntos pueden tardar 24 horas en aparecer</string>
+    <string name="refresh">Refrescar</string>
+
+    <!--Store-->
+    <string name="location">Locaciones</string>
+    <string name="avile_rest">Restaurantes Disponibles 01</string>
+
+    <!--Message-->
+    <string name="message">MENSAJES</string>
+    <string name="remainmsgtext">Tiene 02 mensajes nuevos</string>
+    <string name="msg_descrin">¡Feliz Cumpleaños John!</string>
+
+    <!--Manage card-->
+    <string name="number">215</string>
+    <string name="suvlaspoint">Suvlas Puntos</string>
+    <string name="manage">GESTIONAR</string>
+    <string name="pay">PUNTOS</string>
+    <string name="store_title">ALMACENAR</string>
+    <string name="stores">SUCURSALES</string>
+    <string name="gift">REGALOS</string>
+    <string name="gift_title">GIFTCARDS</string>
+    <string name="order">PEDIDO</string>
+    <string name="welcome">HOLA</string>
+    <string name="history">HISTORIAL</string>
+    <string name="setting">PERFIL</string>
+    <string name="available">Disponible en esta tarjeta</string>
+    <string name="trasferblnc">Balance de Transferencia</string>
+    <string name="autoreload">Recarga automática</string>
+    <string name="reload">Recargar</string>
+
+    <!--Reload card-->
+    <string name="selectamount">Seleccione una cantidad de recarga</string>
+    <string name="ceditard">Tarjeta de crédito / débito</string>
+    <string name="cardholdername">Titular de la tarjeta</string>
+    <string name="edt_cardnumber">Número de tarjeta </string>
+    <string name="securitycode">Código de seguridad</string>
+    <string name="exp_date">Fecha de Expiraciónd</string>
+    <string name="year">Año</string>
+    <string name="procced">CONTINUAR</string>
+
+    <!--Transaction-->
+    <string name="transaction">TRANSACCIÓN</string>
+    <string name="loyaltyapp">MY SUVLAS</string>
+    <string name="user_name">Nombre de Usuario</string>
+    <string name="cardnumber">NÚMERO DE TARJETA</string>
+    <string name="item">PRODUCTO</string>
+    <string name="amount">MONTO</string>
+    <string name="approved">Aprobado</string>
+    <string name="itbms">ITBMS</string>
+    <string name="payamount2">$1.75</string>
+    <string name="ordertotal">Total del pedido</string>
+    <string name="payamount3">$26.75</string>
+    <string name="continuebtn">FINALIZAR COMPRA</string>
+    <string name="username">John Doe</string>
+    <string name="octdate">25 de octubre de 2016-8: 32 am</string>
+    <string name="nonautoreload">No recarga automática</string>
+    <string name="payamount">$ 25.00</string>
+    <string name="card">******1235</string>
+
+    <!--Setting-->
+    <string name="SETTING">AJUSTES</string>
+    <string name="logout">CERRAR SESIÓN</string>
+    <string name="loyalto">Leal to SUVLAS desde Septiembre 2016</string>
+    <string name="currentlocation">Ubicación Actual</string>
+    <string name="generaloption">Opciones generales</string>
+    <string name="gps_navi">Navegador GPS</string>
+    <string name="show_notificn">¿Desea Recibir Notificaciones?</string>
+    <string name="auto_redem">Redención Automática</string>
+    <string name="detect">Detect movement</string>
+
+
+    <!--<string name="transferbalance">TRANSFERBALANCE</string>-->
+    <!--<string name="confirm_order">CONFIRM ORDER</string>-->
+    <!--<string name="our_suvlas_team">Our SUVLAS team will have your order at your selected pickup store.</string>-->
+
+
+
+    <string name="transferbalance">TRANSFERBALANCE</string>
+    <string name="confirm_order">CONFIRMAR PEDIDO</string>
+    <string name="our_suvlas_team">Nuestro equipo de SUVLAS tendrá su pedido en su tienda de recogida seleccionada.</string>
+
+
+    <string name="menu">MENÚ</string>
+    <string name="custom">CUSTOM</string>
+    <string name="addtocart">AÑADIR A LA CESTA</string>
+
+    <string name="suv_mar">Suvlas Marbella</string>
+    <string name="min_driv">10 minutos en coche</string>
+    <string name="ready">Listo en 12-15 minutos</string>
+    <string name="park">Park Yeero</string>
+    <string name="combo">COMBO-Papas + Soda \ nSpicy Yogurt extra</string>
+    <string name="coca">Coca-Cola</string>
+    <string name="apply">Aplicar 215 puntos Suvlas por una recompensa</string>
+    <string name="aply">Aplicar</string>
+    <string name="greek">Griega de la semana 2016</string>
+    <string name="checkout">TUS DATOS</string>
+
+    <string name="item_deta">DETALLES DEL ARTÍCULO</string>
+    <string name="order_detail">Detalles del pedido</string>
+    <string name="spicy">Yogur picante extr</string>
+    <string name="add_item">Añadir artículo</string>
+    <string name="place_order">TU PEDIDO</string>
+    <string name="offer">OFERTAS</string>
+    <string name="birth_reward">Recompensa de cumpleaños disponible</string>
+    <string name="seemore">Ver más</string>
+    <string name="balance_title">RECARGA</string>
+    <string name="search">BUSCA TU SUVLAS</string>
+
+    <string name="managepay">25.22</string>
+    <string name="usd">USD</string>
+
+
+    <string name="barcodecode">0000045415</string>
+    <string name="spoint">Los puntos S tardan 24 horas \n en aparecer</string>
+
+    <string name="reload_pay1">5$</string>
+    <string name="reload_pay2">10$</string>
+    <string name="reload_pay3">15$</string>
+    <string name="reload_pay4">20$</string>
+    <string name="reload_pay5">25$</string>
+    <string name="reload_pay6">25.00$</string>
+    <string name="balance">Saldo-$</string>
+    <string name="as">a partir de</string>
+    <string name="card2">******5415</string>
+
+    <string name="selectdesign">Seleccione el diseño de la tarjeta de regalo</string>
+    <string name="selectgiftcardamt">SELECCIONE EL MONTO A OBSEQUIAR</string>
+    <string name="selectwalletamt">Seleccione la cantidad de Monedero</string>
+    <string name="deliverymethod">Seleccione un método de entrega</string>
+    <string name="deliveryinfo">Insertar información de entrega</string>
+    <string name="to">correo electrónico</string>
+    <string name="form">DE</string>
+    <string name="name">Nombre</string>
+    <string name="messagesmall">Mensajes</string>
+    <string name="giftcarddetail">Detalles de la tarjeta de regalo</string>
+    <string name="Toname">Amy Smith</string>
+    <string name="mail">amy_2508@gmail.com</string>
+    <string name="amountrs">25 UD</string>
+    <string name="msgdescription">Lorem ipsum dolor sentar amet, consecteture adipiscing elit, sed a eiusmod tempor incididunt ut labore y dolore magna aliqua </string>
+
+    <string name="action_settings">ajuste</string>
+    <string name="rewardbonus">BONO! POR CADA 30 PTOS QUE COMPRES OBTEN 5 PUNTOS GRATIS!</string>
+    <string name="get_extra_bonus">Obtendrás un bono extra x3 en los puntos ganados durante las siguientes 12 horas.</string>
+    <string name="greekweek">Semana griega 2016</string>
+    <string name="greek_extra">Obtendrá un bono adicional x3 en los puntos ganados al hacer compras durante las próximas 12 horas a partir del momento en que pueda escanear el código</string>
+    <string name="frash_salad">Disfrute de nuestras ensaladas frescas</string>
+    <string name="favouritestore_error">La ubicación favorita es obligatoria</string>
+    <string name="favourite_location">Ubicación favorita</string>
+    <string name="new_order">Nuevo orden</string>
+    <string name="save_Setting">Salvar</string>
+    <string name="yes_setting">SÍ</string>
+    <string name="no_Setting">NO</string>
+    <string name="register_confirm">Confirmar contraseña</string>
+    <string name="menu_continue">Continuar</string>
+    <string name="suvlasorder">Pedidos Suvlas</string>
+    <string name="pick_up">Recoger En Sucursal</string>
+    <!--<string name="delivery">Entregas</string>-->
+    <string name="order_resume">RESUMEN DE PEDIDO</string>
+    <string name="resume_order_item">ÍT</string>
+    <string name="resume_order_qty">QTY</string>
+    <string name="resume_order_price">PRECIO</string>
+    <string name="order_resume_pick_up">Recoger</string>
+    <string name="subtotal">Total parcial</string>
+    <string name="discount">Descuento</string>
+    <string name="shipping_charge">Cargo de envío</string>
+    <string name="wallet_amount">Monto de la billetera</string>
+    <string name="redeem_point">Canjear punto</string>
+    <string name="total">TOTAL</string>
+    <string name="apply_offer">Aplicar</string>
+    <string name="feedback">Danos Tu Opinión</string>
+    <string name="shareapp">Comparte el App</string>
+    <string name="rateapp">Califica el App</string>
+    <string name="write_feedback">Escribir comentarios</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="save">SALVAR</string>
+    <string name="add_order">Agregar a la orden</string>
+
+    <string name="suvlas_store">SUVLAS | Ubicaciones</string>
+    <string name="point">PUNTOS</string>
+
+    <string name="select_amount">Seleccione Monto</string>
+    <string name="enter_cardholder_name">Por favor ingrese el nombre de Cardholder</string>
+    <string name="enter_card_number">Por favor ingrese el número de tarjeta</string>
+    <string name="enter_cvv">Ingrese el número CVV / CVV2</string>
+    <string name="enter_expiry">Por favor ingrese la fecha de caducidad</string>
+    <string name="enter_valid_expiry">Por favor ingrese la fecha de vencimiento válida</string>
+    <string name="nodata">Datos no encontrados</string>
+    <string name="total_amount">Cantidad total</string>
+    <string name="enter_email">Correo electronico es requerido</string>
+    <string name="enter_gift_card_name">Por favor ingrese el nombre</string>
+    <string name="enter_message">Por favor ingrese el mensaje</string>
+    <string name="payment_successfull">Pago exitoso</string>
+    <string name="payment_unsuccessfull">Pago sin éxito</string>
+    <string name="add_to_order">Agregar a la orden</string>
+    <string name="cancel_order">Cancelar orden</string>
+    <string name="confirm_menu_order">Confirmar pedido</string>
+    <string name="enter_offer_code">Por favor ingrese el código de oferta</string>
+    <string name="select_menu_item">Por favor seleccione el elemento del menú</string>
+    <string name="enter_redeem_point">Por favor, introduzca el punto de canjear</string>
+    <string name="offer_applied">Oferta aplicada con éxito, obtendrá</string>
+    <string name="success">Exitosamente</string>
+    <string name="offer_unavailable">Esta oferta ya no está disponible</string>
+    <string name="offer_applied_success">Oferta aplicada con éxito</string>
+    <string name="order_received">Su pedido recibido con éxito</string>
+    <string name="redeem_point_success">Tu punto de éxito reembolsar</string>
+    <string name="order_placed_success">Su orden colocada con éxito</string>
+    <string name="logout_text">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="ok">DE ACUERDO</string>
+    <string name="doobell_msg">Feedback enviado con éxito</string>
+    <string name="during_transaction">La transacción está siendo procesada. Por favor no cierre el app hasta que se termine de cargar.</string>
+</resources>

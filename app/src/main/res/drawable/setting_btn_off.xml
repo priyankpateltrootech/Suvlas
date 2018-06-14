@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item >
+    <shape android:shape="rectangle" >
+
+        <stroke android:width="0.5dp" android:color="@color/switch_btn" />
+
+
+        <solid android:color="@color/switch_btn" />
+
+        <corners android:topLeftRadius="0dp" android:topRightRadius="0dp"
+            android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp"/>
+
+    </shape>
+</item>
+
+</layer-list>

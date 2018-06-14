@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#444345</color>
+    <color name="colorPrimaryDark">#444345</color>
+    <!--<color name="colorAccent">#8ADBDD</color>-->
+    <color name="colorAccent">#ffffff</color>
+    <color name="logintext">#C7C7C7</color>
+    <color name="loginbg">#434244</color>
+    <color name="sub_btn_text">#4E585B</color>
+    <color name="loginbtn">#8ADBDD</color>
+    <color name="light_msg_detail_bg">#cbebf0</color>
+    <color name="dark_msg_detail_bg">#8bd3dd</color>
+
+    <color name="tran_bg">#8AD3DD</color>
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+    <color name="readmsgbg">#8bd3dd</color>
+    <color name="unreadmsgbg">#cbebf0</color>
+    <color name="unreadmsgtext">#4bafc0</color>
+    <color name="read_text">#4bafc0</color>
+    <color name="readmsgtext">#4BAFC0</color>
+    <color name="dropdowntext">#4a4948</color>
+    <color name="activetab">#504F51</color>
+    <color name="nonactivetab">#8D8D8E</color>
+    <color name="toolbartitle">#B1B0B1</color>
+    <color name="search_edittext">#A1A1A1</color>
+    <color name="extra">#808183</color>
+    <color name="toolbar_view">#848484</color>
+    <color name="circle_indicater">#DEF2F5</color>
+    <color name="view_line">#6B6A6C</color>
+    <color name="switch_btn">#69AAAE</color>
+    <color name="menu_header_color">#8AD2DD</color>
+    <color name="menu_item_color">#CAEBEF</color>
+    <color name="feedback_dialog">#8ACECF</color>
+
+    <color name="btn_cancel_color">#999999</color>
+    <color name="btn_confirm_color">#303F9F</color>
+</resources>

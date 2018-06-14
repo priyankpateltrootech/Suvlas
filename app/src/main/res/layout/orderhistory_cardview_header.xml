@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="180dp">-->
+
+        <ImageView
+            android:id="@+id/img_food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gray_logo"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/txt_foodname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/loginbg"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/loginbtn"
+            android:layout_marginBottom="10dp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_above="@+id/txt_foodname"
+            android:background="@color/loginbg"
+            />
+
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/txt_quantity"
+        android:layout_toStartOf="@+id/txt_quantity"
+        android:textColor="@color/black"
+        android:text="dsdsadsaa"/>
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="12.75"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/txt_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/expandable_img_group"
+        android:layout_toLeftOf="@+id/txt_price"
+        android:layout_toStartOf="@+id/txt_price"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</RelativeLayout>

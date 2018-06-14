@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relative_reward"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:layout_marginRight="15dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:background="@color/white">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/img_tag_blue"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:background="@drawable/blue_tag"-->
+            <!--android:clickable="true" />-->
+
+        <TextView
+            android:id="@+id/txt_rewardbonus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/img_tag_blue"
+            android:text="@string/rewardbonus"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txt_rewardbonusextra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_rewardbonus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/img_tag_blue"
+            android:text="@string/get_extra_bonus"
+            android:textColor="@color/extra"
+            android:textSize="12dp" />
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

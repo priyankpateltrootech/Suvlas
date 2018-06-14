@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/reload_check_btn" android:state_focused="false" android:state_pressed="false" android:state_selected="true"/>
+    <!-- Inactive tab -->
+    <item android:drawable="@drawable/reload_uncheckbtn" android:state_focused="false" android:state_pressed="false" android:state_selected="false"/>
+    <!-- Pressed tab -->
+    <item android:drawable="@drawable/reload_check_btn" android:state_pressed="true"/>
+    <!-- Selected tab (using d-pad) -->
+    <item android:drawable="@drawable/reload_check_btn" android:state_focused="true" android:state_pressed="false" android:state_selected="true"/>
+
+
+    <!--<item android:state_focused="true" android:state_pressed="true"-->
+        <!--android:drawable="@drawable/reload_check_btn" />-->
+    <!--<item android:state_focused="false" android:state_pressed="true"-->
+        <!--android:drawable="@drawable/reload_check_btn" />-->
+    <!--&lt;!&ndash;<item&ndash;&gt;-->
+        <!--&lt;!&ndash;android:state_checked="false"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:state_pressed="false"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:state_selected="false"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:drawable="@drawable/reload_uncheckbtn" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<item&ndash;&gt;-->
+        <!--&lt;!&ndash;android:state_checkable="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:state_checked="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:state_pressed="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:state_selected="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:state_activated="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:state_active="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:drawable="@drawable/reload_uncheckbtn" />&ndash;&gt;-->
+
+    <!--<item-->
+        <!--android:drawable="@drawable/reload_uncheckbtn" /> &lt;!&ndash; default state &ndash;&gt;-->
+
+
+
+</selector>

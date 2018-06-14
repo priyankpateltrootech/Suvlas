@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_date_picker_dialog.xml",
+        "source": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\src\\main\\res\\layout\\mdtp_date_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_date_picker_view_animator.xml",
+        "source": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\src\\main\\res\\layout\\mdtp_date_picker_view_animator.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_date_picker_selected_date.xml",
+        "source": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\src\\main\\res\\layout\\mdtp_date_picker_selected_date.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_date_picker_header_view.xml",
+        "source": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\src\\main\\res\\layout\\mdtp_date_picker_header_view.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_done_button.xml",
+        "source": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\src\\main\\res\\layout\\mdtp_done_button.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_time_header_label.xml",
+        "source": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\src\\main\\res\\layout\\mdtp_time_header_label.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_time_picker_dialog.xml",
+        "source": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\src\\main\\res\\layout\\mdtp_time_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_year_label_text_view.xml",
+        "source": "D:\\Workspace\\Suvlas\\Suvlas\\date_time_lib\\src\\main\\res\\layout\\mdtp_year_label_text_view.xml"
+    }
+]
